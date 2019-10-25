@@ -17,13 +17,11 @@ end
   # Map returns a new array with the results., map syntax looks like this e.g :  array.map { |string| string.upcase }
   end
 
-def self.clear_all 
-  @@all.clear  #clears out our list of existing dogs
-end
+  def self.clear_all
+    @@all.clear
+  end
 
-def save 
-   @@all << self 
- end
-end 
-  
-  
+  def save
+    @@all << self
+  end
+end
